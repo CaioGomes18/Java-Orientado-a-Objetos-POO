@@ -25,6 +25,8 @@ public class School {
 		student3.age = 17;
 		student3.color = "Black";
 		student3.sex = "masculine";
+		
+		System.out.println("Hello");
 	}
 	
 }
