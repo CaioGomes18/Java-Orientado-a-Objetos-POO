@@ -2,9 +2,9 @@ package edu.caio.POO.Ex6;
 
 public class SistemaIBGE {
 	public static void main(String[] args) {
-		/*for(EstadosBrasileiros e: EstadosBrasileiros.values()) {
+		for(EstadosBrasileiros e: EstadosBrasileiros.values()) {
 			System.out.println("Sigla : "+ e.getSigla() + ", Nome do estado : " + e.getNome());
-		}*/
+		}
 		
 		EstadosBrasileiros eb = EstadosBrasileiros.RIO_JANEIRO;
 		
