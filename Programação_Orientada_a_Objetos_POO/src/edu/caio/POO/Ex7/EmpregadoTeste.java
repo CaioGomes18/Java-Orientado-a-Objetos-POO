@@ -24,9 +24,6 @@ public class EmpregadoTeste {
 				System.out.println(emp_2.getNome() + " " + emp_2.getSobrenome() + " Seu novo salario é de : " + aumento);
 			}	
 				
-				
-				
-			
 		}while(opc != 0);
 		
 		System.out.println("programa encerrado");
