@@ -2,6 +2,7 @@ package edu.caio.POO.ExE11.Hheranca.test;
 
 
 import edu.caio.POO.ExE11.Hheranca.dominio.*;
+
 public class HerencaTest {
 	
 	public static void main(String[]args) {
