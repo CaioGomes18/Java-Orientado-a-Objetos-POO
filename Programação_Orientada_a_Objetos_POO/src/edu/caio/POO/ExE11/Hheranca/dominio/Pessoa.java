@@ -4,8 +4,7 @@ public class Pessoa {
 	private String nome;
 	private String cpf;
 	private Endereco endereco;
-	
-	
+
 	public void imprime() {
 		System.out.println(getNome());
 		System.out.println(getCpf());
