@@ -1,9 +1,9 @@
 package edu.caio.POO.ExE11.Hheranca.dominio;
 
 public class Pessoa {
-	private String nome;
-	private String cpf;
-	private Endereco endereco;
+	protected String nome;
+	protected String cpf;
+	protected Endereco endereco;
 
 	public void imprime() {
 		System.out.println(getNome());
@@ -11,8 +11,7 @@ public class Pessoa {
 		System.out.println(endereco.getRua() + " " + endereco.getCep());
 		
 	}
-	
-	
+
 	public String getNome() {
 		return nome;
 	}
