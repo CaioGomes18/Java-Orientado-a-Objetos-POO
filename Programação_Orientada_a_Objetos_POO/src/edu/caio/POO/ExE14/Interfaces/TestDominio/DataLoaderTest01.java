@@ -13,5 +13,8 @@ public class DataLoaderTest01 {
 		
 		loaderDataBase.remove();
 		fileLoader.remove();
+		
+		loaderDataBase.validate();
+		fileLoader.validate();
 	}
 }

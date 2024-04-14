@@ -8,4 +8,8 @@ public class DataBaseLoader implements DataLoader, DataRemover{
 	public void remove() {
 		System.out.println("Removendo da base dados");
 	}
+	
+	public void validate() {
+		System.out.println("Validando banco de dados");
+	}
 }

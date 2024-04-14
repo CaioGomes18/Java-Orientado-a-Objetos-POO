@@ -10,4 +10,8 @@ public class FileLoader implements DataLoader, DataRemover{
 	public void remove() {
 		System.out.println("Removendo arquivo");
 	}
+	
+	public void validate() {
+		System.out.println("Validando arquivo");
+	}
 }
