@@ -1,6 +1,7 @@
 package edu.caio.POO.ExE14.Interfaces.TestDominio;
 
 import edu.caio.POO.ExE14.Interfaces.Dominio.DataBaseLoader;
+import edu.caio.POO.ExE14.Interfaces.Dominio.DataLoader;
 import edu.caio.POO.ExE14.Interfaces.Dominio.FileLoader;
 
 public class DataLoaderTest01 {
@@ -16,5 +17,8 @@ public class DataLoaderTest01 {
 		
 		loaderDataBase.validate();
 		fileLoader.validate();
+		
+		DataLoader.retrieveMaxDataSize();
+		loaderDataBase.retrieveMaxDataSize();
 	}
 }
