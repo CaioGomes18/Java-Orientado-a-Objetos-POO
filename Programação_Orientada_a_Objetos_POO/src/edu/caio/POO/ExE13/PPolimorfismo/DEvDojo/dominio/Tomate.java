@@ -2,6 +2,8 @@ package edu.caio.POO.ExE13.PPolimorfismo.DEvDojo.dominio;
 
 public class Tomate extends Produto{
 	public static final double IMPOSTO_POR_CENTO = 0.06;
+	
+	private String dataDeValidade;
 	public Tomate(String nome, double valor) {
 		super(nome, valor);
 	}
@@ -10,6 +12,12 @@ public class Tomate extends Produto{
 		System.out.println("Calculando o imposto do tomate");
 		
 		return this.valor * IMPOSTO_POR_CENTO;
+	}
+	public String getDataDeValidade() {
+		return dataDeValidade;
+	}
+	public void setDataDeValidade(String dataDeValidade) {
+		this.dataDeValidade = dataDeValidade;
 	}
 	
 	
